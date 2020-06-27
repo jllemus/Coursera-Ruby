@@ -1,0 +1,2834 @@
+Started GET "/" for ::1 at 2020-06-26 11:57:07 -0500
+  [1m[35m (7.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+Started GET "/" for ::1 at 2020-06-26 11:57:09 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.3ms | Allocations: 413)
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 26.0ms | Allocations: 423)
+Completed 200 OK in 145ms (Views: 72.8ms | ActiveRecord: 0.0ms | Allocations: 7193)
+
+
+Completed 200 OK in 112ms (Views: 64.2ms | ActiveRecord: 0.0ms | Allocations: 2495)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:17:23 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 75)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/jose/Desktop/Ruby/recipe_puppy_bootstrap/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 14199ms
+Built at: 06/26/2020 12:17:53 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 29835ms (Views: 29831.2ms | ActiveRecord: 0.0ms | Allocations: 17979)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:20:09 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms | Allocations: 1166)
+
+
+  
+SyntaxError (/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:1: syntax error, unexpected <<
+class Recipe << ApplicationRecord
+             ^~
+/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+    default_params = q: "search"
+                      ^
+/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+    format: json
+          ^
+):
+  
+app/models/recipe.rb:1: syntax error, unexpected <<
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:1: syntax error, unexpected <<
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:1: syntax error, unexpected <<
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:22:14 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 1160)
+
+
+  
+SyntaxError (/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+    default_params = q: "search"
+                      ^
+/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+    format: json
+          ^
+):
+  
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:5: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:27:02 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1156)
+
+
+  
+SyntaxError (/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+    format: json
+          ^
+):
+  
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/models/recipe.rb:6: syntax error, unexpected ':', expecting `end'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:27:32 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 1018ms (ActiveRecord: 0.0ms | Allocations: 6595)
+
+
+  
+NoMethodError (undefined method `default_params' for Recipe(Table doesn't exist):Class
+Did you mean?  default_scope):
+  
+app/models/recipe.rb:5:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:4:in `index'
+Started PUT "/__web_console/repl_sessions/e9f7bac1213f288be2f1582f944268db" for ::1 at 2020-06-26 12:28:14 -0500
+Started PUT "/__web_console/repl_sessions/e9f7bac1213f288be2f1582f944268db" for ::1 at 2020-06-26 12:28:21 -0500
+Started PUT "/__web_console/repl_sessions/e9f7bac1213f288be2f1582f944268db" for ::1 at 2020-06-26 12:28:28 -0500
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:29:06 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 940)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/models/recipe.rb:5:in `format'
+app/models/recipe.rb:5:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:29:43 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2278ms (ActiveRecord: 0.0ms | Allocations: 1239)
+
+
+  
+LoadError (cannot load such file -- HTTParty):
+  
+app/models/recipe.rb:2:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:30:04 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 954)
+
+
+  
+TypeError (wrong argument type String (expected Module)):
+  
+app/models/recipe.rb:2:in `include'
+app/models/recipe.rb:2:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:30:27 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.0ms | Allocations: 1219)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:34:01 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 1005)
+
+
+  
+ArgumentError (bad argument (expected URI object or URI string)):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:34:48 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 1510ms (ActiveRecord: 0.0ms | Allocations: 5882)
+
+
+  
+NameError (undefined local variable or method `results' for Recipe(Table doesn't exist):Class
+Did you mean?  reselect):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:35:17 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2961ms (ActiveRecord: 0.0ms | Allocations: 1757)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/models/recipe.rb:8:in `[]'
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:35:26 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 666ms (ActiveRecord: 0.0ms | Allocations: 5879)
+
+
+  
+NameError (undefined local variable or method `results' for Recipe(Table doesn't exist):Class
+Did you mean?  reselect):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:36:24 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 241.8ms | Allocations: 330)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2113ms (Views: 1308.6ms | ActiveRecord: 0.0ms | Allocations: 5622)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:37:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 330ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 5226)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:37:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 398ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 4258)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:37:55 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms | Allocations: 5798)
+
+
+  
+NameError (undefined local variable or method `results' for Recipe(Table doesn't exist):Class
+Did you mean?  reselect):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:38:03 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1203)
+
+
+  
+SyntaxError (/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:8: syntax error, unexpected '['
+...p://www.recipepuppy.com/api').[results]
+...                              ^
+):
+  
+app/models/recipe.rb:8: syntax error, unexpected '['
+app/models/recipe.rb:8: syntax error, unexpected '['
+app/models/recipe.rb:8: syntax error, unexpected '['
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:38:28 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 563ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 4518)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:39:26 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 520ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 4504)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:39:38 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1695ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4571)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:39:55 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 654ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:40:01 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 783ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 4518)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:40:42 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 812ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 4732)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:42:27 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 1140)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:42:42 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1154)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:43:04 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1847)
+
+
+  
+NoMethodError (undefined method `get' for Class:Class
+Did you mean?  gem):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:44:18 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1856)
+
+
+  
+NoMethodError (undefined method `get' for Class:Class
+Did you mean?  gem):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 12:44:42 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 942ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 4844)
+
+
+Started GET "/" for ::1 at 2020-06-26 17:42:22 -0500
+  [1m[35m (15.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 28.0ms | Allocations: 294)
+Completed 200 OK in 74ms (Views: 38.7ms | ActiveRecord: 0.0ms | Allocations: 1798)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:42:36 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 816.8ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3284ms (Views: 2457.6ms | ActiveRecord: 0.0ms | Allocations: 7636)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:46:44 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 311ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 4769)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:47:42 -0500
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 284ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 4901)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:48:49 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 434ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4877)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:52:33 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 819)
+
+
+  
+ArgumentError (bad argument (expected URI object or URI string)):
+  
+app/models/recipe.rb:10:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:53:02 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1220)
+
+
+  
+SyntaxError (/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:10: syntax error, unexpected ',', expecting =>
+        get(query: {uri_object, i: ingredients.join(','), q:...
+                              ^
+/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:10: syntax error, unexpected ',', expecting `end'
+...ject, i: ingredients.join(','), q: keyword })['results']
+...                              ^
+/home/jose/Desktop/Ruby/recipe_puppy_bootstrap/app/models/recipe.rb:10: syntax error, unexpected ']', expecting `end'
+...(','), q: keyword })['results']
+...                              ^
+):
+  
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting =>
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting `end'
+app/models/recipe.rb:10: syntax error, unexpected ']', expecting `end'
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting =>
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting `end'
+app/models/recipe.rb:10: syntax error, unexpected ']', expecting `end'
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting =>
+app/models/recipe.rb:10: syntax error, unexpected ',', expecting `end'
+app/models/recipe.rb:10: syntax error, unexpected ']', expecting `end'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:53:45 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 767)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/models/recipe.rb:10:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 17:54:09 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 245ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4949)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:33:55 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 517ms (ActiveRecord: 0.0ms | Allocations: 1102)
+
+
+  
+SocketError (Failed to open TCP connection to www.recipepuppy.comapi:80 (getaddrinfo: Name or service not known)):
+  
+app/models/recipe.rb:9:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:34:06 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 1117)
+
+
+  
+SocketError (Failed to open TCP connection to www.recipepuppy.comapi:80 (getaddrinfo: Name or service not known)):
+  
+app/models/recipe.rb:9:in `for'
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:34:18 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 738ms (Views: 132.7ms | ActiveRecord: 0.0ms | Allocations: 4756)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:37:32 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 338)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 685ms (Views: 412.1ms | ActiveRecord: 0.0ms | Allocations: 5436)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:41:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 361ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 5617)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:41:30 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 894)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms | Allocations: 2541)
+
+
+  
+ActionView::Template::Error (783: unexpected token at '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Omelet Recipes with Onions, Garlic - Recipe Puppy</title>
+        <link href="/cssjs/style.css?33" type="text/css" media="screen" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="search" type="application/opensearchdescription+xml" title="Recipe Puppy: Search by Ingredients" href="http://www.recipepuppy.com/rpopen.xml">
+    <link rel="search" type="application/opensearchdescription+xml" title="Recipe Puppy: Search by Keyword" href="http://www.recipepuppy.com/rpkeyword.xml">
+  </head>
+  <body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="http://recipelabs.s3.amazonaws.com/layout/jquery-ui-1.8.16.custom.min.js"></script>
+  <div class="network">
+   <div class="networkinner">
+    <ul>
+      <li><a style="padding:0" href="http://recipelabs.com"><img src="http://recipelabs.s3.amazonaws.com/layout/recipelabssmalllogo.png" alt="Recipe Labs"/></a></li>
+      <li><a href="http://recipelabs.com">Create a Recipe</a></li>
+      <li><a href="http://www.recipepuppy.com/email/">Daily Recipes by Email</a></li>
+      <li><a href="http://www.ingredientpairings.com">Ingredient Pairings</a></li>
+      <li><a href="http://restaurantcoupons.us">Restaurant Coupons</a></li>
+      <li><a href="http://recipepuppy.com">Recipe Search by Ingredients</a></li>
+    </ul>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      });
+    </script>
+    <style>
+      body{ padding:0;margin:0; } 
+      .network{ background-color:#2d8802;border-bottom:1px solid #1d7802;color:#FFF;z-index:5;font-family:'Ubuntu',arial,sans-serif; }
+      .networkinner{ width:100%;margin:0 auto;height:36px; }
+      .network ul{ margin:0;line-height:12px; }
+      .network li{ text-align:left;float:left;display:block;height:36px;list-style-type:none;margin:0;padding:0; }
+      .network li a{ display:block;font-size:14px;padding-top:10px;padding-left:10px;padding-right:10px;color:#FFF;text-decoration:none;font-weight:bold; }
+      .network li a#homelink{ color:#444;font-weight:bold; }
+      .network li a#homelink:hover{ color:#444; }
+      .network li a:hover{ text-decoration:underline; }
+      .networkinner div{ background-color:#f7f3e7;border:5px solid #e3ddd1;position:relative;top:-60px;left:10px;display:none;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px; }
+      .networkinner div li{ float:none;border-bottom:1px solid #AAA;height:auto;padding:2px 5px; }
+      .networkinner div li a{ border-top:none;font-size:10px; }
+      .networkinner div li a:hover{ background-color:#FFF; }
+      .featured{ background-color:#43970e;z-index:4; }
+      .featured li{ list-style-type:none; }
+      .featuredinner{ width:988px;margin:0 auto;height:70px;padding-top:30px;text-align:center; }
+      #loginbox{display:block;position:absolute;}
+     </style>
+   </div>
+  </div>
+    <script type="text/javascript">
+    window.google_analytics_uacct = "UA-367787-22";
+    </script>
+    
+    <div class="header">
+      <h1><a href="/"><img src="/img/logonew.png" title="Search Recipes by Ingredients and Keywords" alt="Search for Recipes by Ingredients" /></a></h1>
+      
+
+        
+</div>
+<div class="searchbox">
+  <form name="f" action="/" method="get">
+    <b class="first">Search by Ingredients (comma separated):</b>
+    <a href="/advanced?i=onions%2Cgarlic&q=omelet" style="font-size:10px;">Advanced Search</a>
+    <input type="text" name="i" id="addIng" class="focus" size=45  value="onions, garlic, " /><input type="submit" value="Search" class="sub" />
+    <input type="hidden" value="omelet" name="q" id="keyword" />
+    <div id="special"></div>
+  </form>
+</div>
+    </div>
+    <div class="nav">
+      <div class="searchStats" id="stats">Results <b>1-10</b> of <b>435</b> for recipes <span id="whatrecipes">with <b>onions, garlic</b> and with keywords <b>'omelet'</b></span> (0.000 seconds)</div>          </div>
+        <div class="main">
+      
+
+
+
+<div id="right">
+  <div class="right">
+
+
+
+<div class="blarg" style="margin-bottom:1em;">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout="image-side"
+     data-ad-layout-key="-fc+4n+8q-ft+4l"
+     data-ad-client="ca-pub-6345197035071335"
+     data-ad-slot="1129137439"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+<div style="clear:both;height:0px;"></div>
+
+      <div class="result firstresult">
+        <a href="http://allrecipes.com/Recipe/Monterey-Turkey-Omelet/Detail.aspx" target="_blank"><img src="http://img.recipepuppy.com/5506.jpg" class="thumb" alt="Monterey Turkey Omelet" /></a>
+        <h3><a href="http://allrecipes.com/Recipe/Monterey-Turkey-Omelet/Detail.aspx" target="_blank">Monterey Turkey <b>Omelet</b></a> </h3>
+        <div>"Our home economists use deli turkey, onion, garlic and green pepper to give a tasteful twist to a sunrise staple. The cheese-topped <b>omelet</b> looks special<b>...</b></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,butter&q=omelet" class="addIng" title="Add butter to your Recipe Search">+butter</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,green pepper&q=omelet" class="addIng" title="Add green pepper to your Recipe Search">+green pepper</a>, <a href="?i=onions,garlic,monterey jack cheese&q=omelet" class="addIng" title="Add monterey jack cheese to your Recipe Search">+monterey jack cheese</a>, <a href="?i=onions,garlic,turkey&q=omelet" class="addIng" title="Add turkey to your Recipe Search">+turkey</a>, <a href="?i=onions,garlic,water&q=omelet" class="addIng" title="Add water to your Recipe Search">+water</a></div>
+      <div class="url">allrecipes.com - <a href="/?similiar=5506">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://www.recipezaar.com/Canadian-Bacon-Omelet-309202" target="_blank"></a>
+        <h3><a href="http://www.recipezaar.com/Canadian-Bacon-Omelet-309202" target="_blank">Canadian Bacon <b>Omelet</b></a> </h3>
+        <div>A tasty <b>omelet</b> that we have enjoyed in our house.  Make sure that you use a skillet that can be used on the stove top as well as the oven, as the <b>omelet</b><b>...</b></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,butter&q=omelet" class="addIng" title="Add butter to your Recipe Search">+butter</a>, <a href="?i=onions,garlic,canadian bacon&q=omelet" class="addIng" title="Add canadian bacon to your Recipe Search">+canadian bacon</a>, <a href="?i=onions,garlic,cheddar cheese&q=omelet" class="addIng" title="Add cheddar cheese to your Recipe Search">+cheddar cheese</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,potato&q=omelet" class="addIng" title="Add potato to your Recipe Search">+potato</a>, <a href="?i=onions,garlic,red pepper&q=omelet" class="addIng" title="Add red pepper to your Recipe Search">+red pepper</a>, <a href="?i=onions,garlic,sour cream&q=omelet" class="addIng" title="Add sour cream to your Recipe Search">+sour cream</a></div>
+      <div class="url">www.recipezaar.com - <a href="/?similiar=278344">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://www.kraftfoods.com/kf/recipes/cheesy-bacon-potato-omelet-112465.aspx" target="_blank"><img src="http://img.recipepuppy.com/600267.jpg" class="thumb" alt="Cheesy Bacon and Potato Omelet 
+
+" /></a>
+        <h3><a href="http://www.kraftfoods.com/kf/recipes/cheesy-bacon-potato-omelet-112465.aspx" target="_blank">Cheesy Bacon and Potato <b>Omelet</b> 
+
+</a> </h3>
+        <div></div>
+        <div class="ings"><b>onions</b>, <b>garlic</b>, <a href="?i=onions,garlic,bacon&q=omelet" class="addIng" title="Add bacon to your Recipe Search">+bacon</a>, <a href="?i=onions,garlic,potato&q=omelet" class="addIng" title="Add potato to your Recipe Search">+potato</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,cheddar cheese&q=omelet" class="addIng" title="Add cheddar cheese to your Recipe Search">+cheddar cheese</a>, <a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a>, <a href="?i=onions,garlic,parsley&q=omelet" class="addIng" title="Add parsley to your Recipe Search">+parsley</a></div>
+      <div class="url">www.kraftfoods.com - <a href="/?similiar=600267">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://cookeatshare.com/recipes/shrimp-omelet-52483" target="_blank"><img src="http://img.recipepuppy.com/767245.jpg" class="thumb" alt="
+Shrimp Omelet Recipe
+
+" /></a>
+        <h3><a href="http://cookeatshare.com/recipes/shrimp-omelet-52483" target="_blank">
+Shrimp <b>Omelet</b> Recipe
+
+</a> </h3>
+        <div></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,vegetable oil&q=omelet" class="addIng" title="Add vegetable oil to your Recipe Search">+vegetable oil</a>, <a href="?i=onions,garlic,tomato&q=omelet" class="addIng" title="Add tomato to your Recipe Search">+tomato</a>, <a href="?i=onions,garlic,shrimp&q=omelet" class="addIng" title="Add shrimp to your Recipe Search">+shrimp</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a>, <a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a></div>
+      <div class="url">cookeatshare.com - <a href="/?similiar=767245">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://allrecipes.com/Recipe/Mild-Curry-Omelet/Detail.aspx" target="_blank"></a>
+        <h3><a href="http://allrecipes.com/Recipe/Mild-Curry-Omelet/Detail.aspx" target="_blank">Mild Curry <b>Omelet</b></a> </h3>
+        <div>"This easy and very tasty <b>omelet</b> will impress anyone and they will never have <b>omelet</b> any other way after tasting this!"</div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,coriander&q=omelet" class="addIng" title="Add coriander to your Recipe Search">+coriander</a>, <a href="?i=onions,garlic,cumin&q=omelet" class="addIng" title="Add cumin to your Recipe Search">+cumin</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,green onion&q=omelet" class="addIng" title="Add green onion to your Recipe Search">+green onion</a>, <a href="?i=onions,garlic,vegetable oil&q=omelet" class="addIng" title="Add vegetable oil to your Recipe Search">+vegetable oil</a>, <a href="?i=onions,garlic,red pepper&q=omelet" class="addIng" title="Add red pepper to your Recipe Search">+red pepper</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a>, <a href="?i=onions,garlic,turmeric&q=omelet" class="addIng" title="Add turmeric to your Recipe Search">+turmeric</a></div>
+      <div class="url">allrecipes.com - <a href="/?similiar=11957">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://www.recipezaar.com/Greek-Omelet-311274" target="_blank"></a>
+        <h3><a href="http://www.recipezaar.com/Greek-Omelet-311274" target="_blank">Greek <b>Omelet</b></a> </h3>
+        <div>This is a wonderful <b>omelet</b> with so many delicious flavors working with each other to produce an <b>omelet</b> that is healthy for you, as well as great tasting!<b>...</b></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,capers&q=omelet" class="addIng" title="Add capers to your Recipe Search">+capers</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,feta cheese&q=omelet" class="addIng" title="Add feta cheese to your Recipe Search">+feta cheese</a>, <a href="?i=onions,garlic,dill weed&q=omelet" class="addIng" title="Add dill weed to your Recipe Search">+dill weed</a>, <a href="?i=onions,garlic,olive oil&q=omelet" class="addIng" title="Add olive oil to your Recipe Search">+olive oil</a>, <a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a>, <a href="?i=onions,garlic,potato&q=omelet" class="addIng" title="Add potato to your Recipe Search">+potato</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a>, <a href="?i=onions,garlic,spinach&q=omelet" class="addIng" title="Add spinach to your Recipe Search">+spinach</a></div>
+      <div class="url">www.recipezaar.com - <a href="/?similiar=694430">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=366747" target="_blank"><img src="http://img.recipepuppy.com/550787.jpg" class="thumb" alt="Spanish Omelet with Fresh Avocado Salsa" /></a>
+        <h3><a href="http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=366747" target="_blank">Spanish <b>Omelet</b> with Fresh Avocado Salsa</a> </h3>
+        <div></div>
+        <div class="ings"><b>onions</b>, <b>garlic</b>, <a href="?i=onions,garlic,sausage&q=omelet" class="addIng" title="Add sausage to your Recipe Search">+sausage</a>, <a href="?i=onions,garlic,green pepper&q=omelet" class="addIng" title="Add green pepper to your Recipe Search">+green pepper</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a>, <a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a>, <a href="?i=onions,garlic,nonstick cooking spray&q=omelet" class="addIng" title="Add nonstick cooking spray to your Recipe Search">+nonstick cooking spray</a>, <a href="?i=onions,garlic,butter&q=omelet" class="addIng" title="Add butter to your Recipe Search">+butter</a>, <a href="?i=onions,garlic,goat cheese&q=omelet" class="addIng" title="Add goat cheese to your Recipe Search">+goat cheese</a>, <a href="?i=onions,garlic,avocado&q=omelet" class="addIng" title="Add avocado to your Recipe Search">+avocado</a></div>
+      <div class="url">find.myrecipes.com - <a href="/?similiar=550787">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://www.recipezaar.com/egyptian-eggplant-omelet-369516" target="_blank"></a>
+        <h3><a href="http://www.recipezaar.com/egyptian-eggplant-omelet-369516" target="_blank">Egyptian Eggplant <b>Omelet</b></a> </h3>
+        <div>Spices and flavorings from China, India, Spain, and tropical Africa have found their way into Egyptian cooking.  Garlic, coriander, cumin, and pepper season<b>...</b></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a>, <a href="?i=onions,garlic,coriander&q=omelet" class="addIng" title="Add coriander to your Recipe Search">+coriander</a>, <a href="?i=onions,garlic,cumin&q=omelet" class="addIng" title="Add cumin to your Recipe Search">+cumin</a>, <a href="?i=onions,garlic,eggplant&q=omelet" class="addIng" title="Add eggplant to your Recipe Search">+eggplant</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,ground beef&q=omelet" class="addIng" title="Add ground beef to your Recipe Search">+ground beef</a>, <a href="?i=onions,garlic,parsley&q=omelet" class="addIng" title="Add parsley to your Recipe Search">+parsley</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a></div>
+      <div class="url">www.recipezaar.com - <a href="/?similiar=539845">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://www.cooks.com/rec/view/0,1916,138188-236200,00.html" target="_blank"></a>
+        <h3><a href="http://www.cooks.com/rec/view/0,1916,138188-236200,00.html" target="_blank">Zucchini Pepperoni <b>Omelet</b></a> </h3>
+        <div></div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,green pepper&q=omelet" class="addIng" title="Add green pepper to your Recipe Search">+green pepper</a>, <a href="?i=onions,garlic,zucchini&q=omelet" class="addIng" title="Add zucchini to your Recipe Search">+zucchini</a>, <a href="?i=onions,garlic,pepperoni&q=omelet" class="addIng" title="Add pepperoni to your Recipe Search">+pepperoni</a>, <a href="?i=onions,garlic,olive oil&q=omelet" class="addIng" title="Add olive oil to your Recipe Search">+olive oil</a>, <a href="?i=onions,garlic,oregano&q=omelet" class="addIng" title="Add oregano to your Recipe Search">+oregano</a></div>
+      <div class="url">www.cooks.com - <a href="/?similiar=433385">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> 
+      <div class="result">
+        <a href="http://allrecipes.com/Recipe/Aussie-Omelet/Detail.aspx" target="_blank"></a>
+        <h3><a href="http://allrecipes.com/Recipe/Aussie-Omelet/Detail.aspx" target="_blank">Aussie <b>Omelet</b></a> </h3>
+        <div>"A great hearty Aussie <b>omelet</b> (well, we think it is!). Well worth the effort."</div>
+        <div class="ings"><b>garlic</b>, <b>onions</b>, <a href="?i=onions,garlic,cheddar cheese&q=omelet" class="addIng" title="Add cheddar cheese to your Recipe Search">+cheddar cheese</a>, <a href="?i=onions,garlic,curry powder&q=omelet" class="addIng" title="Add curry powder to your Recipe Search">+curry powder</a>, <a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a>, <a href="?i=onions,garlic,green pepper&q=omelet" class="addIng" title="Add green pepper to your Recipe Search">+green pepper</a>, <a href="?i=onions,garlic,milk&q=omelet" class="addIng" title="Add milk to your Recipe Search">+milk</a>, <a href="?i=onions,garlic,olive oil&q=omelet" class="addIng" title="Add olive oil to your Recipe Search">+olive oil</a>, <a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a>, <a href="?i=onions,garlic,shrimp&q=omelet" class="addIng" title="Add shrimp to your Recipe Search">+shrimp</a>, <a href="?i=onions,garlic,tomato&q=omelet" class="addIng" title="Add tomato to your Recipe Search">+tomato</a></div>
+      <div class="url">allrecipes.com - <a href="/?similiar=9669">Similiar recipes</a></div>
+        <div style="clear:both"></div>
+      </div> <div class="pages"><div style="float:left;">Page</div> <a href="?i=onions,garlic&q=omelet" class="current">1</a><a href="?i=onions,garlic&q=omelet&p=2" >2</a><a href="?i=onions,garlic&q=omelet&p=3" >3</a><a href="?i=onions,garlic&q=omelet&p=4" >4</a><a href="?i=onions,garlic&q=omelet&p=5" >5</a><a href="?i=onions,garlic&q=omelet&p=6" >6</a><a href="?i=onions,garlic&q=omelet&p=7" >7</a><a href="?i=onions,garlic&q=omelet&p=8" >8</a><a href="?i=onions,garlic&q=omelet&p=9" >9</a><a href="?i=onions,garlic&q=omelet&p=10" >10</a><a href="?i=onions,garlic&q=omelet&p=11" >11</a></div>
+<div style="margin:1em 0">
+Can't find what you are looking for? Try our custom google recipe search:<br/>
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-right" style="background-color:#FFFFFF;color:#000000">
+  <div class="cse-branding-form">
+    <form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-6345197035071335:2079204186" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" size="50" />
+        <input type="submit" name="sa" value="Search" />
+      </div>
+    </form>
+  </div>
+  <div class="cse-branding-logo">
+    <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    Custom Search
+  </div>
+</div>
+
+
+</div>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout="image-side"
+     data-ad-layout-key="-fc+4n+8q-ft+4l"
+     data-ad-client="ca-pub-6345197035071335"
+     data-ad-slot="1129137439"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
+</div>
+<div class="left">
+
+    <div class="box">
+      <div id="soptions" class="boxcontent">
+        
+<form name="f" action="/" method="get">
+  <b>Search Options:</b>
+
+  <div><a href="?i=onions,garlic&q=omelet&oi=1">Only Recipes with Images</a> <strong>All Recipes</strong></div>
+
+  <br/><br/><strong>Keyword Search:</strong>
+  <input type="hidden" name="i" value="onions, garlic, " />
+  <input type="text" name="q" size=16 value="omelet" /><input type="submit" value="Search" class="sub" />
+
+</form>
+        <div style="clear:both"></div>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+
+
+
+
+
+<div style="margin:0 auto 10px;min-height:250px;">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- rp2 300x250 2017 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6345197035071335"
+     data-ad-slot="4128681772"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+
+
+
+<div style="clear:both"</div>
+    <div class="box"><div class="boxcontent">
+          <b>Your Ingredients:</b>
+          <div id="yourIngredients">
+            <ul>
+              <li class="i"><div><a href="?i=onions,%2Bgarlic&q=omelet" class="alterIngN" title="Make garlic required">garlic</a><a href="?i=onions&q=omelet" class="x">X</a></div></li><li class="i"><div><a href="?i=garlic,%2Bonions&q=omelet" class="alterIngN" title="Make onions required">onions</a><a href="?i=garlic&q=omelet" class="x">X</a></div></li><div style="clear:both"></div>
+            </ul>
+
+            <div><a href="/" style="float:right;display:block;">Start Over</a><div style="clear:both"></div></div>
+ </div>
+            
+            <div id="legend"><div><em>Legend:</em> <i>click ingredients to include or exclude</i></div>
+              <div class="i">have this</div>
+              <div class="j i">need to use this</div>
+              <div class="k i">exclude this</div>
+              <div style="clear:both"></div>
+            </div>
+      
+  </div>
+</div>
+
+
+
+<div style="margin:0 auto 10px;min-height:250px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- rp 300x250 2017 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6345197035071335"
+     data-ad-slot="1773981178"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+
+
+
+
+
+    <div class="box">
+      <div id="recommendedIngredients" class="boxcontent">
+        <b>Suggested Ingredients:</b><a href="?i=onions,garlic,eggs&q=omelet" class="addIng" title="Add eggs to your Recipe Search">+eggs</a><a href="?i=onions,garlic,salt&q=omelet" class="addIng" title="Add salt to your Recipe Search">+salt</a><a href="?i=onions,garlic,black pepper&q=omelet" class="addIng" title="Add black pepper to your Recipe Search">+black pepper</a><a href="?i=onions,garlic,green pepper&q=omelet" class="addIng" title="Add green pepper to your Recipe Search">+green pepper</a><a href="?i=onions,garlic,olive oil&q=omelet" class="addIng" title="Add olive oil to your Recipe Search">+olive oil</a><a href="?i=onions,garlic,cheddar cheese&q=omelet" class="addIng" title="Add cheddar cheese to your Recipe Search">+cheddar cheese</a><a href="?i=onions,garlic,butter&q=omelet" class="addIng" title="Add butter to your Recipe Search">+butter</a><a href="?i=onions,garlic,potato&q=omelet" class="addIng" title="Add potato to your Recipe Search">+potato</a><a href="?i=onions,garlic,tomato&q=omelet" class="addIng" title="Add tomato to your Recipe Search">+tomato</a><a href="?i=onions,garlic,parsley&q=omelet" class="addIng" title="Add parsley to your Recipe Search">+parsley</a><a href="?i=onions,garlic,red pepper&q=omelet" class="addIng" title="Add red pepper to your Recipe Search">+red pepper</a><a href="?i=onions,garlic,coriander&q=omelet" class="addIng" title="Add coriander to your Recipe Search">+coriander</a><a href="?i=onions,garlic,shrimp&q=omelet" class="addIng" title="Add shrimp to your Recipe Search">+shrimp</a><a href="?i=onions,garlic,vegetable oil&q=omelet" class="addIng" title="Add vegetable oil to your Recipe Search">+vegetable oil</a><a href="?i=onions,garlic,cumin&q=omelet" class="addIng" title="Add cumin to your Recipe Search">+cumin</a><a href="?i=onions,garlic,avocado&q=omelet" class="addIng" title="Add avocado to your Recipe Search">+avocado</a><a href="?i=onions,garlic,sour cream&q=omelet" class="addIng" title="Add sour cream to your Recipe Search">+sour cream</a><a href="?i=onions,garlic,nonstick cooking spray&q=omelet" class="addIng" title="Add nonstick cooking spray to your Recipe Search">+nonstick cooking spray</a><a href="?i=onions,garlic,canadian bacon&q=omelet" class="addIng" title="Add canadian bacon to your Recipe Search">+canadian bacon</a><a href="?i=onions,garlic,milk&q=omelet" class="addIng" title="Add milk to your Recipe Search">+milk</a>
+        <div style="clear:both"></div>
+      </div>
+    </div>
+    <div class="box">
+      <div id="ingredientInfo" class="boxcontent">
+        <b>Ingredient Information</b><a href="http://www.foodguts.com/?ingredient=onions" target="_blank">onions</a><a href="http://www.foodguts.com/?ingredient=garlic" target="_blank">garlic</a>
+        <div style="clear:both"></div>
+      </div>
+    </div>
+
+
+    
+
+</div>
+
+
+<div style="clear:both"></div>
+<div class="blarg" style="margin-top:1em;display:none">
+</div>
+
+
+    </div>
+    <div style="clear:both"></div>
+    <div class="foot">
+     <div class="footcontent">
+      <div class="column">
+        <h4>About</h4>
+        <a href="/about/us">About Us</a><br>
+        <a href="/about/contact">Contact Us</a><br>
+        <a href="/privacy">Privacy Policy</a><br>
+        <a href="http://blog.recipepuppy.com/">Blog</a><br>
+      </div>
+      <div class="column">
+        <h4>On the Web</h4>
+        <a href="http://www.facebook.com/pages/Recipe-Puppy-Search-for-recipes-by-ingredients/54865354493#/pages/Recipe-Puppy-Search-for-recipes-by-ingredients/54865354493">Facebook</a><br>
+        <a href="http://twitter.com/recipepuppy/">Twitter</a><br>
+        <a href="http://twitter.com/recipebot/">Twitter Recipe Search Bot</a><br>
+      </div>
+      <div class="column">
+        <h4>Tools</h4>
+        <a href="/widgets/">Add to your Website</a><br>
+        <a href="/about/api/">API</a><br>
+        <a href="http://www.webmynd.com/html/recipepuppy.html">Search alongside Google</a><br>
+        <a href="/iphone/">Recipe Puppy for iPhone</a><br>
+        <a href="http://vegetarianrecipe.us">Vegetarian Search</a><br>
+        <a href="http://veganrecipe.us">Vegan Search</a><br>
+      </div>
+      <div class="column">
+        <h4>More</h4>
+        <a href="http://www.recipelabs.com/">Submit your Recipe</a><br>
+        <a href="http://ask.recipelabs.com/">Cooking Q&A</a><br>
+        <a href="/groceries/online/">Online Grocery Delivery</a><br>
+        <a href="http://restaurantgiftcertificates.us">Restaurant Gift Certificates</a><br>
+        <a href="http://restaurantcoupons.us">Restaurant Coupons</a><br>
+        <a href="/store/">Store</a><br>
+      </div>
+      <div class="column">
+        <h4>&copy;2020 RecipePuppy.com</h4>
+        <a href="/email/">Daily Recipes Email</a><br>
+      </div>
+      <div style="clear:both"></div>
+     </div>
+    </div>
+    <div style="clear:both"></div>
+   
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-367787-22']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+
+
+    <script type="text/javascript" src="/cssjs/jquery.autocomplete.min.js"></script>
+        <script type="text/javascript" src="/cssjs/rp.js?9"></script>
+    
+
+
+
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:7514420,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=7514420&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+  </body>
+</html>
+'):
+     7:         <th>Title</th>
+     8:         <th>Ingredients</th>
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th>recipe.title</th>
+    13:         </tr>
+  
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:47:06 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 354)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 481ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 4829)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:47:23 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 268ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 4743)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:47:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 425ms (Views: 30.7ms | ActiveRecord: 0.0ms | Allocations: 5477)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:48:02 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 429ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 5478)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:48:11 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2158)
+Completed 500 Internal Server Error in 575ms (ActiveRecord: 0.0ms | Allocations: 4316)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x000055788c289f38>):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th><%= recipe.title%></th>
+    13:         </tr>
+    14:     <% end %>
+    15: 
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:50:21 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 1950)
+Completed 500 Internal Server Error in 1204ms (ActiveRecord: 0.0ms | Allocations: 3713)
+
+
+  
+ActionView::Template::Error (undefined method `title' for ["title", "Monterey Turkey Omelet"]:Array):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th><%= recipe.title%></th>
+    13:         </tr>
+    14:     <% end %>
+    15: 
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:50:36 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1047)
+Completed 500 Internal Server Error in 673ms (ActiveRecord: 0.0ms | Allocations: 3213)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th><%= recipe[:title] %></th>
+    13:         </tr>
+    14:     <% end %>
+    15: 
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:51:13 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 208)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 418ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 5436)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:51:36 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2168)
+Completed 500 Internal Server Error in 369ms (ActiveRecord: 0.0ms | Allocations: 4326)
+
+
+  
+ActionView::Template::Error (undefined method `title' for ["title", "Monterey Turkey Omelet"]:Array):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th> <%= recipe.title %> </th>
+    13:         </tr>
+    14:     <% end %>
+    15: 
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/" for ::1 at 2020-06-26 19:51:47 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 51.0ms | Allocations: 178)
+Completed 200 OK in 77ms (Views: 55.0ms | ActiveRecord: 0.0ms | Allocations: 941)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:52:29 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1933)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f6f0810d0f0>):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th> <%= recipe.title %> </th>
+    13:         </tr>
+    14:     <% end %>
+    15: 
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:52:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 268)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 259ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 5479)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:57:10 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 369)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 369ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 5561)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 19:57:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 360)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 503ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 5555)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:00:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 344ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 6476)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:02:02 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1069)
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms | Allocations: 3217)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1..2)):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th> <%= link_to image_tag['thumbnail'], recipe['href']  %> </th>
+    13:             <th> <%= recipe['title'] %> </th>
+    14:             <th> <%= recipe['ingredients'] %> </th>
+    15:         </tr>
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:02:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 62.0ms | Allocations: 3921)
+Completed 500 Internal Server Error in 1856ms (ActiveRecord: 0.0ms | Allocations: 6080)
+
+
+  
+ActionView::Template::Error (The asset "thumbnail" is not present in the asset pipeline.):
+     9:     </tr>
+    10:     <% @recipes.each do |recipe| %>
+    11:         <tr>
+    12:             <th> <%= link_to image_tag('thumbnail'), recipe['href']  %> </th>
+    13:             <th> <%= recipe['title'] %> </th>
+    14:             <th> <%= recipe['ingredients'] %> </th>
+    15:         </tr>
+  
+app/views/recipes/index.html.erb:12
+app/views/recipes/index.html.erb:10:in `each'
+app/views/recipes/index.html.erb:10
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:03:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 463)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 416ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 5685)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:05:10 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6318ms (Views: 476.0ms | ActiveRecord: 0.0ms | Allocations: 12711)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:05:34 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2295ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 12553)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:46:26 -0500
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.7ms | Allocations: 294)
+Completed 200 OK in 56ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 1632)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:46:28 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 487)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 877ms (Views: 343.5ms | ActiveRecord: 0.0ms | Allocations: 11624)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 20:46:32 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 298ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 20:46:34 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 428ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:46:37 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 500ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4560)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:46:38 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 517ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 4555)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:46:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 459ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 4556)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:46:44 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 495ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 4567)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:48:05 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.6ms | Allocations: 183)
+Completed 200 OK in 36ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 2143)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:48:07 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 748ms (Views: 34.4ms | ActiveRecord: 0.0ms | Allocations: 4770)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 20:48:09 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 286ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 4560)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 20:48:12 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 265ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 4587)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:48:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 254ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 4568)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:48:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 289ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4564)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:48:17 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 332ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:48:20 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 410ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:48:58 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jose/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 7)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 466)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:49:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 392ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 4648)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:53:02 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 319ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 4904)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:53:16 -0500
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-06-26 20:53:41 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#home as HTML
+Completed 406 Not Acceptable in 13ms (ActiveRecord: 0.0ms | Allocations: 1953)
+
+
+  
+ActionController::MissingExactTemplate (RecipesController#home is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-06-26 20:55:25 -0500
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 4452)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:55:36 -0500
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 4432)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:55:46 -0500
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 3278)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:55:46 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 474)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 789ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 6621)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 20:55:49 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 389ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4576)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 20:55:52 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 610ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 4565)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:55:55 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 390ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 4568)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:55:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 658ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 4560)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:55:59 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1386ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 20:56:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 510ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 4584)
+
+
+Started GET "/" for ::1 at 2020-06-26 21:00:01 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:02 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 586ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4679)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 21:00:07 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2237ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 4568)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 21:00:12 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 536ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 4565)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 483ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 4567)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:16 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 821ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4563)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:20 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 462ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4569)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:23 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 849ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 4561)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:00:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 448ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 4624)
+
+
+Started GET "/" for ::1 at 2020-06-26 21:07:57 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 3395)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:07:59 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 603ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 4687)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 21:08:01 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 414ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 4569)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 21:08:04 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 416ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 4574)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:08:07 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 392ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 4566)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:08:08 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 344ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 4558)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:08:10 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 391ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 4598)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:08:13 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 433ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 4572)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:21:51 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 341ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+Started GET "/" for ::1 at 2020-06-26 21:22:01 -0500
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:22:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 258ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4564)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 21:22:04 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 230ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4572)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 21:22:06 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 371ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 4564)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:22:09 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 283ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 4561)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:22:10 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 291ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 4570)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:22:13 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 358ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 4563)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 21:22:16 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 366ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 4564)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 21:24:13 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 267ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 4640)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 21:24:20 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 361ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 4651)
+
+
+Started GET "/recipes/index?search" for ::1 at 2020-06-26 22:01:04 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>nil}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 705ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:01:07 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 271ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 4658)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:01:13 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 326ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 4677)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:09:26 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:09:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 447ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:09:32 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 284ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 4572)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:09:35 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 277ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 4315)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:09:38 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 369ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 4584)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:09:39 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 4576)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:09:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 4574)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:09:44 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 491ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 4567)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:10:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 393ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 4666)
+
+
+Started GET "/recipes/index?bread" for ::1 at 2020-06-26 22:11:38 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"bread"=>nil}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 585ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 4648)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:11:50 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 515ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 4644)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:13:07 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#home as HTML
+  Rendering recipes/home.html.erb within layouts/application
+  Rendered recipes/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:13:09 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:13:12 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2172)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:13:15 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2172)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:13:18 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2174)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:13:20 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 2174)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:13:23 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2174)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:13:25 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 2174)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:14:12 -0500
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2249)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:8:in `index'
+Started GET "/" for ::1 at 2020-06-26 22:20:47 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2325)
+
+
+  
+NameError (undefined local variable or method `ingredients' for Recipe:Class):
+  
+app/models/recipe.rb:8:in `for'
+app/controllers/recipes_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2020-06-26 22:21:17 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 299ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5079)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:21:30 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 225ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4422)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:21:31 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 236ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4495)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:21:32 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4514)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:21:32 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 253ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4512)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:21:35 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 230ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 4519)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:21:35 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 216ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4503)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:21:38 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 229ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 4502)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:21:40 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4499)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:34:51 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 474)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 781ms (Views: 210.9ms | ActiveRecord: 0.0ms | Allocations: 5688)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:35:02 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 230ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4424)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:35:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 239ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4510)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:35:03 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 345ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 4511)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:35:04 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 256ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 4490)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:35:07 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 397ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4512)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:35:08 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 221ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4505)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:35:08 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 248ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 4499)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:35:08 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4505)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:36:59 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 237ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4582)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:41:43 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1387)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 6602)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:41:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 895)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 453ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 5043)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:41:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 241ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 5118)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:41:52 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 890)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 280ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 5116)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:41:53 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 881)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 289ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 5114)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:41:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 215ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 5122)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:41:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 888)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 230ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 5114)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:41:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 302ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 5110)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:41:57 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 326ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 5121)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:45:21 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 78.1ms | Allocations: 2544)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 315ms (Views: 86.7ms | ActiveRecord: 0.0ms | Allocations: 7769)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:45:36 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2336)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 255ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 6482)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:45:37 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 249ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 6581)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 22:45:37 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 2329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 261ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 6553)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 22:45:38 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2320)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 270ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 6534)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:45:40 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 236ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 6579)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:45:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 332ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 6550)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:45:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 227ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6560)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 22:45:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 254ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 6554)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:50:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 346.0ms | Allocations: 125606)
+Completed 500 Internal Server Error in 941ms (ActiveRecord: 0.0ms | Allocations: 127719)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `course' for #<#<Class:0x00007fd314416240>:0x00007fd314414850>):
+    1: <h1>Recipes for <%= @search %></h1>
+    2: <% full_sanitizer= Rails::Html::FullSanitizer.new %>
+    3: <%= full_sanitizer.sanitize( link_to(course["title"], course["f2f_url"])) %>
+    4: 
+    5: <table border="1">
+    6:     <tr>
+  
+app/views/recipes/index.html.erb:3
+Started GET "/" for ::1 at 2020-06-26 22:50:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2544)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 253ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 7791)
+
+
+Started GET "/" for ::1 at 2020-06-26 22:58:54 -0500
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 386.8ms | Allocations: 64041)
+Completed 500 Internal Server Error in 653ms (ActiveRecord: 0.0ms | Allocations: 67019)
+
+
+  
+ActionView::Template::Error (undefined method `link_sanitizer' for #<#<Class:0x000055e870b8b308>:0x000055e870b883b0>):
+     8:     </tr>
+     9:     <% @recipes.each do |recipe| %>
+    10:         <tr>
+    11:             <td> <%= link_sanitizer(link_to image_tag(recipe['thumbnail']), recipe['href'])  %> </td>
+    12:             <td> <%= sanitize link_to recipe['title'] %> </td>
+    13:             <td> <%= recipe['ingredients'] %> </td>
+    14:         </tr>
+  
+app/views/recipes/index.html.erb:11
+app/views/recipes/index.html.erb:9:in `each'
+app/views/recipes/index.html.erb:9
+Started GET "/" for ::1 at 2020-06-26 22:59:25 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 280.7ms | Allocations: 63634)
+Completed 500 Internal Server Error in 516ms (ActiveRecord: 0.0ms | Allocations: 65766)
+
+
+  
+ActionView::Template::Error (undefined method `link_sanitizer' for #<#<Class:0x000055e86ec3d2a8>:0x000055e86fe8d4a8>):
+     8:     <% @recipes.each do |recipe| %>
+     9:         <tr>
+    10:             <%link_sanitizer = Rails::Html::LinkSanitizer.new %>
+    11:             <td> <%= link_sanitizer(link_to image_tag(recipe['thumbnail']), recipe['href'])  %> </td>
+    12:             <td> <%= sanitize link_to recipe['title'] %> </td>
+    13:             <td> <%= recipe['ingredients'] %> </td>
+    14:         </tr>
+  
+app/views/recipes/index.html.erb:11
+app/views/recipes/index.html.erb:8:in `each'
+app/views/recipes/index.html.erb:8
+Started GET "/" for ::1 at 2020-06-26 23:04:43 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1099)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms | Allocations: 3212)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Recipes for <%= @search %></h1>
+<table border="1">
+    <tr>
+        <th>Photo</th>
+        <th>Title</th>
+        <th>Ingredients</th>
+    </tr>
+    <% @recipes.each do |recipe| %>
+        <tr>
+        
+            <td> <%= link_to image_tag(recipe['thumbnail']), sanitize recipe['href'] safe %> </td>
+            <td> <%= sanitize link_to recipe['title'] %> </td>
+            <td> <%= recipe['ingredients'] %> </td>
+        </tr>
+    <% end %>
+</table>
+
+):
+1:    <h1>Recipes for <%= @search %></h1>
+2:    <table border="1">
+3:        <tr>
+4:            <th>Photo</th>
+5:            <th>Title</th>
+6:            <th>Ingredients</th>
+7:        </tr>
+8:        <% @recipes.each do |recipe| %>
+9:            <tr>
+10:            
+11:                <td> <%= link_to image_tag(recipe['thumbnail']), sanitize recipe['href'] safe %> </td>
+12:                <td> <%= sanitize link_to recipe['title'] %> </td>
+13:                <td> <%= recipe['ingredients'] %> </td>
+14:            </tr>
+15:        <% end %>
+16:    </table>
+  
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/recipes/index.html.erb:11: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/" for ::1 at 2020-06-26 23:06:34 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 26.1ms | Allocations: 2851)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 452ms (Views: 215.1ms | ActiveRecord: 0.0ms | Allocations: 10262)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:06:55 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 2332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 383ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 6645)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:07:23 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 2320)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 262ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 6628)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:07:45 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 2325)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 255ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 6624)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:07:50 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 2323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 363ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 6644)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:08:13 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 2330)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 260ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 6480)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:08:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 262ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 6550)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 23:08:14 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 2329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 274ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 6545)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 23:08:15 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 2320)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 250ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 6549)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:08:17 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 257ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 6563)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:08:18 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 243ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 6563)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:08:19 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 238ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 6577)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:08:19 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 246ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 6577)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:09:06 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 2327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 283ms (Views: 54.6ms | ActiveRecord: 0.0ms | Allocations: 6627)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:09:13 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 2320)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 430ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 6635)
+
+
+Started GET "/?search=amarula" for ::1 at 2020-06-26 23:21:35 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 48.8ms | Allocations: 2124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 309ms (Views: 76.9ms | ActiveRecord: 0.0ms | Allocations: 7329)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:22:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 26.3ms | Allocations: 1930)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 6101)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:22:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 251ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 6147)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 23:22:16 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 267ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 6152)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 23:22:17 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1907)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1074ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 6135)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:22:20 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 274ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 6182)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:22:21 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 764ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 6151)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:22:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 6157)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:22:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 259ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 6146)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:23:58 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 508ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 6070)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:00 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 6150)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 23:24:00 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 1929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 278ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 6153)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 23:24:01 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1907)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 254ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 6114)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 506ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 6162)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:04 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 245ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 6147)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 6145)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 248ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 6162)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:24:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 397ms (Views: 33.8ms | ActiveRecord: 0.0ms | Allocations: 6069)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 234ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 6164)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 23:24:27 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 1929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 241ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 6165)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 23:24:27 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1907)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 252ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 6136)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:28 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 262ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 6157)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 249ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 6187)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:29 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 333ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 6184)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:24:30 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 264ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 6150)
+
+
+Started GET "/" for ::1 at 2020-06-26 23:57:43 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 377ms (Views: 83.6ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:57:46 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 235ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6147)
+
+
+Started GET "/recipes/index?search=bread" for ::1 at 2020-06-26 23:57:47 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"bread"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1929)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 276ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 6155)
+
+
+Started GET "/recipes/index?search=amarula" for ::1 at 2020-06-26 23:57:48 -0500
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"amarula"}
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 1907)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 266ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 6139)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:57:50 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 236ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6151)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:57:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 248ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6163)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:57:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 755ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 6148)
+
+
+Started GET "/recipes/index" for ::1 at 2020-06-26 23:57:52 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1923)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 335ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 6145)
+
+
