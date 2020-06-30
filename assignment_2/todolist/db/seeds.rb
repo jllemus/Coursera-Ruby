@@ -25,10 +25,10 @@ profiles.each do |profile|
   user = User.create!( username: profile.last_name, password_digest: profile.birth_year, profile: profile, todo_list_ids: [list.id])
 end 
 
-# todolists = TodoList.all
+todolists = TodoList.all
 
-# todolists.each do |list|  
-#   5.times do	  
-#   list.todo_items.create!(due_date: due_date, title: "Title", description: "Description")	
-#   end	
-# end
+todolists.each do |list|  
+  5.times do	  
+  list.todo_items.create!(due_date: due_date, title: "Title", description: "Description")	
+  end	
+end
